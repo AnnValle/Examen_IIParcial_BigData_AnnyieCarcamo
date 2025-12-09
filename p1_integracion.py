@@ -46,4 +46,4 @@ print(f"Valores de datos corregidos (NaN -> Media): {invalidos_total}")
 print(f"Filas finales en el DataFrame integrado: {len(df_final)}\n")
 
 print("Primeras 10 filas del DataFrame final:")
-print(df_final.head(10).to_markdown(index=False, numalign="left", stralign="left"))
+print(df_final.head(10).to_markdown(index=False, numalign='left', stralign='left'))
